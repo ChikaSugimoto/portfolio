@@ -45,18 +45,23 @@ $(function () {
   });
 
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= offset.top) {
-      $nav.addClass('fixed');
-      $("#contents").css("margin-top", navHeight);
-    } else {
-      $nav.removeClass('fixed');
-      $("#contents").css("margin-top", "0");
-    }
-  });
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() >= offset.top) {
+  //     $nav.addClass('fixed');
+  //     $("#contents").css("margin-top", navHeight);
+  //   } else {
+  //     $nav.removeClass('fixed');
+  //     $("#contents").css("margin-top", "0");
+  //   }
+  // });
 
 
   
+    $('#nav_toggle').click(function(){
+          $("header").toggleClass('open');
+      $("nav").slideToggle(500);
+        });
+
     var pagetop = $('#page_top');    
     pagetop.hide();
     $(window).scroll(function () {

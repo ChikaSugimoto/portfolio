@@ -290,12 +290,8 @@ h3:after {
   Works
 ---------------------------------*/
 
-#works .two-column-image {
-  width: 48%;
-}
-
 #works .two-column-desc {
-  width: 48%;
+  width: 45%;
 }
 
 #works {
@@ -305,6 +301,13 @@ h3:after {
 .two-column-wrapper {
   margin: 50px auto;
 }
+
+#works .two-column-image {
+
+  width: 45%;
+  margin-top: 15px;
+}
+
 
 /*--------------------------------
   Design Works
@@ -506,7 +509,7 @@ h3:after {
     left: 0;
     height: 300px;
     background-color: #b0c4de;
-    
+
   }
 
   #mnav ul li a:hover {
@@ -547,7 +550,7 @@ h3:after {
 
   #nav_toggle div {
     position: relative;
-    
+
   }
 
   #nav_toggle span {

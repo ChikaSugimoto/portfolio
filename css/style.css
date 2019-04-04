@@ -477,10 +477,15 @@ h3:after {
   }
 
   #header .logo-desc {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   /*--------- navi ---------*/
+
+  #contents {
+    padding-top: 50px;
+  }
+
 
   #gnav {
     position: fixed;
@@ -497,8 +502,8 @@ h3:after {
 
   #mnav {
     position: fixed;
-    top: 15px;
-    right: 15px;
+    top: 10px;
+    right: 10px;
     z-index: 100;
   }
 
@@ -673,6 +678,10 @@ h3:after {
     margin: 0 auto 20px;
   }
 
+  #about img{
+    margin: 0 auto;
+  }
+
   /*--------- study ---------*/
 
   #study{
@@ -680,7 +689,7 @@ h3:after {
   }
 
   #page_top {
-    right: 20px;
+    right: 5px;
     bottom: 40px;
   }
 

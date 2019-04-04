@@ -274,14 +274,6 @@ h3:after {
   justify-content: space-between;
 }
 
-.two-column-image {
-  width: 33%;
-}
-
-.two-column-image img {
-  margin: 0 auto;
-}
-
 .two-column-desc {
   width: 62%;
 }
@@ -298,16 +290,18 @@ h3:after {
   background-color: #fff;
 }
 
-.two-column-wrapper {
+/* .two-column-wrapper {
   margin: 50px auto;
-}
+} */
 
 #works .two-column-image {
-
   width: 45%;
-  margin-top: 15px;
+  
 }
 
+#works .two-column-image img{
+  margin: 15px 0 0 auto;
+}
 
 /*--------------------------------
   Design Works
@@ -349,7 +343,6 @@ h3:after {
 }
 
 #designworks .card-wrapper {
-  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,6 +351,10 @@ h3:after {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+#designworks p{
+  margin-bottom: 50px;
 }
 
 /*--------------------------------
@@ -463,6 +460,8 @@ h3:after {
     line-height: 1.7;
   }
 
+/*--------- header ---------*/
+
   #header {
     height: 200px;
     position: relative;
@@ -480,6 +479,8 @@ h3:after {
   #header .logo-desc {
     font-size: 11px;
   }
+
+  /*--------- navi ---------*/
 
   #gnav {
     position: fixed;
@@ -598,9 +599,7 @@ h3:after {
     transform: rotate(-135deg);
   }
 
-  #contents {
-    padding-top: 40px;
-  }
+  /*--------- section ---------*/
 
   .section .inner {
     padding: 30px 15px;
@@ -614,6 +613,8 @@ h3:after {
     font-size: 36px;
   }
 
+  /*--------- works ---------*/
+
   #works .two-column-wrapper {
     width: 90%;
     -ms-flex-wrap: wrap;
@@ -622,12 +623,18 @@ h3:after {
 
   #works .two-column-image {
     width: 80%;
-    margin: 0 auto 20px;
+    margin: 20px auto;
+  }
+
+  #works .two-column-image img{
+    margin: 0 auto;
   }
 
   #works .two-column-desc {
     width: 100%;
   }
+
+  /*--------- designworks ---------*/
 
   #designworks .card {
     width: 98%;
@@ -640,6 +647,15 @@ h3:after {
   #designworks .card-caption-info {
     font-size: 11px;
   }
+
+  #designworks .card-wrapper{
+    padding: 0;
+  }
+
+  #designworks .inner{
+    padding: 30px 10px 0;
+  }
+  /*--------- about ---------*/
 
   #about .two-column-desc {
     margin: 0 30px;
@@ -657,14 +673,10 @@ h3:after {
     margin: 0 auto 20px;
   }
 
-  #footer .inner {
-    padding: 20px 0;
-  }
+  /*--------- study ---------*/
 
-  #footer .footer-link li {
-    font-size: 10px;
-    padding: 0 10px;
-    margin-bottom: 5px;
+  #study{
+    padding-bottom:20px;
   }
 
   #page_top {
@@ -672,4 +684,10 @@ h3:after {
     bottom: 40px;
   }
 
+  /*--------- footer ---------*/
+
+  #footer .inner {
+    padding: 20px 0;
+  }
+  
 }

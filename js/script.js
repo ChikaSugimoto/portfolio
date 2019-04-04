@@ -27,22 +27,22 @@ $(function () {
   });
 
 
-  var $nav = $('#gnav');
-  var offset = $nav.offset();
-  var navHeight = $nav.innerHeight();
-  $('.section').css('padding-top', navHeight / 2);
+  // var $nav = $('#gnav');
+  // var offset = $nav.offset();
+  // var navHeight = $nav.innerHeight();
+  // $('.section').css('padding-top', navHeight / 2);
 
-  $(window).on('resize', function () {
-    var currentWidth = window.innerWidth;
-    if (currentWidth == window.innerWidth) {
-      // ウインドウ横幅が変わっていないため処理をキャンセル
-      return;
-    }
-    $nav = $('#gnav');
-    offset = $nav.offset();
-    navHeight = $nav.innerHeight();
-    $('.section').css('padding-top', navHeight / 2);
-  });
+  // $(window).on('resize', function () {
+  //   var currentWidth = window.innerWidth;
+  //   if (currentWidth == window.innerWidth) {
+  //     // ウインドウ横幅が変わっていないため処理をキャンセル
+  //     return;
+  //   }
+  //   $nav = $('#gnav');
+  //   offset = $nav.offset();
+  //   navHeight = $nav.innerHeight();
+  //   $('.section').css('padding-top', navHeight / 2);
+  // });
 
 
   // $(window).scroll(function () {
@@ -56,12 +56,14 @@ $(function () {
   // });
 
 
-  
+    //ハンバーガーメニュー
     $('#nav_toggle').click(function(){
           $("header").toggleClass('open');
       $("nav").slideToggle(500);
         });
 
+
+    //page top ボタン 
     var pagetop = $('#page_top');    
     pagetop.hide();
     $(window).scroll(function () {

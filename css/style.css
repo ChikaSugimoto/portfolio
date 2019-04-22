@@ -506,7 +506,7 @@ h3:after {
   nav {
     display: none;
     position: absolute;
-    top: 55px;
+    top: 50px;
     width: 100%;
     left: 0;
     height: 300px;
@@ -528,7 +528,6 @@ h3:after {
   #mnav nav ul li {
     margin: 0 auto;
     text-align: center;
-    /* border-bottom: 1px solid #fff; */
   }
 
   #mnav nav ul li:last-child {
@@ -543,10 +542,10 @@ h3:after {
   /*開閉ボタン*/
   #nav_toggle {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    top: 4px;
+    top: 2px;
     z-index: 100;
   }
 
@@ -573,16 +572,16 @@ h3:after {
   }
 
   #nav_toggle span:nth-child(2) {
-    top: 12px;
+    top: 10px;
   }
 
   #nav_toggle span:nth-child(3) {
-    top: 24px;
+    top: 20px;
   }
 
   /*開閉ボタンopen時*/
   .open #nav_toggle span:nth-child(1) {
-    top: 12px;
+    top: 10px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     transform: rotate(135deg);
@@ -594,7 +593,7 @@ h3:after {
   }
 
   .open #nav_toggle span:nth-child(3) {
-    top: 12px;
+    top: 10px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     transform: rotate(-135deg);
